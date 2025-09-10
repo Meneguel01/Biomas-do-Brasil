@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo dos Biomas Brasileiros</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-container">
+    <h1 class="fade-in">🌿 Jogo dos Biomas Brasileiros 🌿</h1>
+    <h2 class="fade-in">Escolha seu personagem</h2>
+
+    <div class="characters" id="characters"></div>
+
+    <div id="selected-character" class="fade-in"></div>
+    <div id="game-phase" class="fade-in"></div>
+  </div>
+
+  <!-- Sons -->
+  <audio id="click-sound" src="assets/click.mp3"></audio>
+  <audio id="victory-sound" src="assets/victory.mp3"></audio>
+  <audio id="defeat-sound" src="assets/defeat.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
